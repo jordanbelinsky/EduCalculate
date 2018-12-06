@@ -1,3 +1,8 @@
+"""
+File Name: course_marks.py
+Description: store course mark presets
+"""
+
 ###############################
 # Grade 12 Advanced Functions #
 ###############################
