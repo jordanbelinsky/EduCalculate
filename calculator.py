@@ -1,3 +1,8 @@
+"""
+File Name: calculator.py
+Description: main application program
+"""
+
 # Variables #
 from functions import *         # import calculations
 from course_marks import *      # import preset marks and weights
