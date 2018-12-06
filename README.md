@@ -14,5 +14,5 @@ Weighted Average Calculator:
 - Support for entering marks in fraction form rather than just decimal form
 
 Final Exam Calculator:
-- Prompt the user if they have an ISU as well as exam
+- Prompt the user for if they have an ISU as well as exam
 - Calculate mark using exam and ISU weighting, rather than just exam
