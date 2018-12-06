@@ -1,3 +1,11 @@
+"""
+File Name: functions.py
+Description: store calculation functions
+"""
+
+###############################
+# Weighted Average Calculator #
+###############################
 def calc_avg(num_of_marks, numerator, denominator, markList, valueList):
     for i in range(num_of_marks):
         num = markList[i]*valueList[i]
@@ -8,6 +16,9 @@ def calc_avg(num_of_marks, numerator, denominator, markList, valueList):
     average = numerator/denominator
     return round(average, 2)
 
+#########################
+# Final Exam Calculator #
+#########################
 def calc_final(current, final, weight):
     decimal_weight = weight/100
     current_weight = 1 - decimal_weight
