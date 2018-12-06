@@ -1,9 +1,10 @@
 # Variables #
-from functions import *
+from functions import *         # import calculations
+from course_marks import *      # import preset marks and weights
 marks = []
 values = []
-avg_num = 0
-avg_den = 0
+avg_num = 0                     # empty integer to calculate the numerator of the weighted average calculation
+avg_den = 0                     # empty integer to calculate the denominator of the weighted average calculation
 
 # Application States #
 intro = True
@@ -11,10 +12,6 @@ num_check = False
 allow_input = False
 option_1 = False
 option_2 = False
-
-# Preset Values #
-math_weights = [5, 20, 20, 15, 5]
-math_sections = ["CK", "KU", "APP", "TH", "COM"]
 
 # Intro Screen #
 while intro:
