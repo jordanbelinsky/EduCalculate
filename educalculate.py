@@ -11,6 +11,8 @@ values = []
 avg_num = 0                     # empty integer to calculate the numerator of the weighted average calculation
 avg_den = 0                     # empty integer to calculate the denominator of the weighted average calculation
 
+# TEST #
+
 # states #
 intro = True
 num_check = False
