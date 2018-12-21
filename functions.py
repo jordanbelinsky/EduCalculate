@@ -5,6 +5,7 @@ Description: store functions to be called in the main program
 
 # intro screen information #
 def main_info():
+    #learn printf()
     print()
     print("educ[alcul]ate")
     print("a program written by jordan belinsky")
