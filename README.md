@@ -1,5 +1,5 @@
-# Educ[alcul]ate
-This is an application coded in Python that allows you to calculate a number of different aspects of your school career. Including a number of calculation modes, Educ[alcul]ate is an application that can help you determine all of your marks, and more.
+# Edu[calcul]ate
+This is an application coded in Python that allows you to calculate a number of different aspects of your school career. Including a number of calculation modes, Edu[calcul]ate is an application that can help you determine all of your marks, and more.
 
 ## Downloads:
 - beta v0.1: <a href="https://github.com/jordanbelinsky/educalculate/archive/v0.1-beta.zip">Source code (zip file)</a>
