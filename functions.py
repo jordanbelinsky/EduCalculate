@@ -37,13 +37,13 @@ def fraction_decimal(numerator, denominator):
     mark = numerator/denominator
     return mark
 
-# program output 1 #
+# weighted average output #
 def output_1(mark_num, avg_num, avg_den, marks, values):
     print()
     print("your weighted average is: "+str(calc_avg(mark_num, avg_num, avg_den, marks, values))+"%.")
     print()
 
-# program output 2 #
+# final mark output #
 def output_2(current_grade, final_grade, final_worth):
     print()
     print("you require a "+str(calc_final(current_grade, final_grade, final_worth))+"% on the final exam to finish with an "+str(final_grade)+"%.")
