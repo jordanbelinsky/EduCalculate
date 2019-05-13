@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -244,11 +243,12 @@
                     <connections>
                         <segue destination="rCZ-qv-eoT" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="Ofp-qm-UaU" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="q5N-qq-no2" kind="relationship" relationship="viewControllers" id="UyV-9P-s5D"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-676" y="359"/>
         </scene>
         <!--Weighted Average-->
         <scene sceneID="Y0U-RK-gez">
@@ -272,11 +272,28 @@
             </objects>
             <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
         </scene>
+        <!--Credits-->
+        <scene sceneID="da4-kr-qBP">
+            <objects>
+                <navigationController id="q5N-qq-no2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Credits" image="user_male.png" id="jPX-G4-BP2"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="xbA-Kx-0si">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="psL-XY-1Yp" kind="relationship" relationship="rootViewController" id="EXk-cB-ail"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2J8-9Z-uOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="1148"/>
+        </scene>
         <!--Final Exam-->
         <scene sceneID="4LV-mV-gzF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ofp-qm-UaU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Final Exam" image="exam.png" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Final Exam" image="ball_point_pen.png" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="CTI-C1-a9N">
                         <rect key="frame" x="0.0" y="44" width="375" height="96"/>
@@ -291,9 +308,58 @@
             </objects>
             <point key="canvasLocation" x="749.27536231884062" y="359.59821428571428"/>
         </scene>
+        <!--Credits-->
+        <scene sceneID="Yw8-9A-rgI">
+            <objects>
+                <viewController id="psL-XY-1Yp" customClass="ThirdViewController" customModule="educ_alcul_ate" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v17-BA-N76">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kex-HM-poQ">
+                                <rect key="frame" x="16" y="680" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profileSquare.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pqq-g5-GzM">
+                                <rect key="frame" x="26" y="170" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jordan Belinsky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBK-s3-oEq">
+                                <rect key="frame" x="140" y="177" width="236" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Computer Science Student" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duI-gv-out">
+                                <rect key="frame" x="140" y="216" width="264" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="s78-QR-byl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Credits" id="CAd-W0-yMf"/>
+                    <connections>
+                        <outlet property="profile" destination="Pqq-g5-GzM" id="3eO-r0-VDU"/>
+                        <outlet property="version" destination="Kex-HM-poQ" id="7OY-N1-YFT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JEl-qc-2nq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656.8" y="1147.536945812808"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="exam.png" width="30" height="30"/>
+        <image name="ball_point_pen.png" width="30" height="30"/>
         <image name="graduation_cap.png" width="30" height="30"/>
+        <image name="profileSquare.png" width="1824" height="1824"/>
+        <image name="user_male.png" width="30" height="30"/>
     </resources>
 </document>

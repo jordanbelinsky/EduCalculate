@@ -6,8 +6,10 @@
 //  Copyright © 2019 Jordan Belinsky. All rights reserved. //
 /////////////////////////////////////////////////////////////
 
+// import UI library for UI elements
 import UIKit
 
+// app view controller class
 class SecondViewController: UIViewController {
     
     // declare text field inputs
@@ -19,20 +21,21 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var markOutput: UILabel!
     @IBOutlet weak var version: UILabel!
     
+    // default loading characteristics
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // display version number
-        version.text = "Version: 1.0~b0.1"
+        version.text = "Version: 1.0~b0.2"
         
         // check for general taps around screen area to dismiss keyboard
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
         // setup for numpad support
-        cMInput.keyboardType = UIKeyboardType.numberPad
-        fMInput.keyboardType = UIKeyboardType.numberPad
-        wInput.keyboardType = UIKeyboardType.numberPad
+        cMInput.keyboardType = UIKeyboardType.decimalPad
+        fMInput.keyboardType = UIKeyboardType.decimalPad
+        wInput.keyboardType = UIKeyboardType.decimalPad
     }
 
     // function to dismiss keyboard on tap
@@ -41,18 +44,21 @@ class SecondViewController: UIViewController {
         view.endEditing(true)
     }
     
-    func finalExam(current: Int, final: Int, weight: Int) -> Int {
+    // function to calculate the exam mark required given current and final marks
+    func finalExam(current: Double, final: Double, weight: Double) -> Double {
         
-        // decalre required variable
+        // decalre variables
         var required: Double
         let currentWeight = 1 - weight
         
-        required = Double((final - currentWeight * current) / weight)
+        // calculate the required mark
+        required = (final - currentWeight * current) / weight
         
         // return required value from function
-        return Int(required)
+        return required
     }
     
+    // event handling for calculate mark button
     @IBAction func calculateMark(_ sender: Any) {
         
         // first responder revokation
@@ -61,14 +67,15 @@ class SecondViewController: UIViewController {
         wInput.resignFirstResponder()
         
         // convert string values to integers
-        let currentMark = Int(cMInput.text!)
-        let endMark = Int(fMInput.text!)
-        let weighting = Int(wInput.text!)!/100
+        let currentMark = (cMInput.text! as NSString).doubleValue
+        let endMark = (fMInput.text! as NSString).doubleValue
+        let weighting = (wInput.text! as NSString).doubleValue
         
-        // calculate the final mark
-        var finalMark: Int
-        finalMark = finalExam(current: currentMark!, final: endMark!, weight: weighting)
+        // define and calculate the final mark
+        var finalMark: Double
+        finalMark = finalExam(current: currentMark, final: endMark, weight: weighting)
         
+        // display the final mark in string form
         markOutput.text = "The mark you need is: \(finalMark)%"
     }
     

@@ -13,9 +13,6 @@
 		D0325F6C2289160700EF63F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0325F6A2289160700EF63F9 /* Main.storyboard */; };
 		D0325F6E2289160800EF63F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0325F6D2289160800EF63F9 /* Assets.xcassets */; };
 		D0325F712289160800EF63F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0325F6F2289160800EF63F9 /* LaunchScreen.storyboard */; };
-		D0325F7F2289432A00EF63F9 /* exam.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325F7C2289432A00EF63F9 /* exam.png */; };
-		D0325F802289432A00EF63F9 /* exam@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325F7D2289432A00EF63F9 /* exam@2x.png */; };
-		D0325F812289432A00EF63F9 /* exam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325F7E2289432A00EF63F9 /* exam@3x.png */; };
 		D0325F8322894C4900EF63F9 /* graduation_cap@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325F8222894C4900EF63F9 /* graduation_cap@3x.png */; };
 		D0325F8622894C5F00EF63F9 /* graduation_cap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325F8422894C5F00EF63F9 /* graduation_cap@2x.png */; };
 		D0325F8722894C5F00EF63F9 /* graduation_cap.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325F8522894C5F00EF63F9 /* graduation_cap.png */; };
@@ -38,6 +35,15 @@
 		D0325FDE22894F2500EF63F9 /* App Store.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FB022894F2400EF63F9 /* App Store.png */; };
 		D0325FE422894F2500EF63F9 /* iPad Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FB622894F2400EF63F9 /* iPad Settings@2x.png */; };
 		D0325FE922894F2500EF63F9 /* iPad notification iOS 7,12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FBB22894F2400EF63F9 /* iPad notification iOS 7,12@2x.png */; };
+		D0325FF62289E09800EF63F9 /* user_male@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FF32289E09700EF63F9 /* user_male@3x.png */; };
+		D0325FF72289E09800EF63F9 /* user_male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FF42289E09800EF63F9 /* user_male@2x.png */; };
+		D0325FF82289E09800EF63F9 /* user_male.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FF52289E09800EF63F9 /* user_male.png */; };
+		D03260022289E19700EF63F9 /* ball_point_pen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FFF2289E19600EF63F9 /* ball_point_pen@3x.png */; };
+		D03260032289E19700EF63F9 /* ball_point_pen.png in Resources */ = {isa = PBXBuildFile; fileRef = D03260002289E19600EF63F9 /* ball_point_pen.png */; };
+		D03260042289E19700EF63F9 /* ball_point_pen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D03260012289E19700EF63F9 /* ball_point_pen@2x.png */; };
+		D03260062289E29A00EF63F9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03260052289E29A00EF63F9 /* ThirdViewController.swift */; };
+		D03260082289EF6800EF63F9 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D03260072289EF6800EF63F9 /* profile.jpg */; };
+		D032600A2289F21700EF63F9 /* profileSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = D03260092289F21700EF63F9 /* profileSquare.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,9 +55,6 @@
 		D0325F6D2289160800EF63F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0325F702289160800EF63F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0325F722289160800EF63F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0325F7C2289432A00EF63F9 /* exam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exam.png; path = ../../../../../../Downloads/iOS_11_glyph_icons/PNG/exam.png; sourceTree = "<group>"; };
-		D0325F7D2289432A00EF63F9 /* exam@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exam@2x.png"; path = "../../../../../../Downloads/iOS_11_glyph_icons/PNG/exam@2x.png"; sourceTree = "<group>"; };
-		D0325F7E2289432A00EF63F9 /* exam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exam@3x.png"; path = "../../../../../../Downloads/iOS_11_glyph_icons/PNG/exam@3x.png"; sourceTree = "<group>"; };
 		D0325F8222894C4900EF63F9 /* graduation_cap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graduation_cap@3x.png"; sourceTree = "<group>"; };
 		D0325F8422894C5F00EF63F9 /* graduation_cap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graduation_cap@2x.png"; sourceTree = "<group>"; };
 		D0325F8522894C5F00EF63F9 /* graduation_cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graduation_cap.png; sourceTree = "<group>"; };
@@ -74,6 +77,15 @@
 		D0325FB022894F2400EF63F9 /* App Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Store.png"; sourceTree = "<group>"; };
 		D0325FB622894F2400EF63F9 /* iPad Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Settings@2x.png"; sourceTree = "<group>"; };
 		D0325FBB22894F2400EF63F9 /* iPad notification iOS 7,12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad notification iOS 7,12@2x.png"; sourceTree = "<group>"; };
+		D0325FF32289E09700EF63F9 /* user_male@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_male@3x.png"; sourceTree = "<group>"; };
+		D0325FF42289E09800EF63F9 /* user_male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_male@2x.png"; sourceTree = "<group>"; };
+		D0325FF52289E09800EF63F9 /* user_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_male.png; sourceTree = "<group>"; };
+		D0325FFF2289E19600EF63F9 /* ball_point_pen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball_point_pen@3x.png"; sourceTree = "<group>"; };
+		D03260002289E19600EF63F9 /* ball_point_pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_point_pen.png; sourceTree = "<group>"; };
+		D03260012289E19700EF63F9 /* ball_point_pen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball_point_pen@2x.png"; sourceTree = "<group>"; };
+		D03260052289E29A00EF63F9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D03260072289EF6800EF63F9 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		D03260092289F21700EF63F9 /* profileSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileSquare.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,7 @@
 				D0325F642289160700EF63F9 /* AppDelegate.swift */,
 				D0325F662289160700EF63F9 /* FirstViewController.swift */,
 				D0325F682289160700EF63F9 /* SecondViewController.swift */,
+				D03260052289E29A00EF63F9 /* ThirdViewController.swift */,
 				D0325F6A2289160700EF63F9 /* Main.storyboard */,
 				D0325F6D2289160800EF63F9 /* Assets.xcassets */,
 				D0325F6F2289160800EF63F9 /* LaunchScreen.storyboard */,
@@ -122,9 +135,14 @@
 		D0325F78228942D600EF63F9 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				D0325F7C2289432A00EF63F9 /* exam.png */,
-				D0325F7D2289432A00EF63F9 /* exam@2x.png */,
-				D0325F7E2289432A00EF63F9 /* exam@3x.png */,
+				D03260072289EF6800EF63F9 /* profile.jpg */,
+				D03260092289F21700EF63F9 /* profileSquare.png */,
+				D0325FF52289E09800EF63F9 /* user_male.png */,
+				D0325FF42289E09800EF63F9 /* user_male@2x.png */,
+				D0325FF32289E09700EF63F9 /* user_male@3x.png */,
+				D03260002289E19600EF63F9 /* ball_point_pen.png */,
+				D03260012289E19700EF63F9 /* ball_point_pen@2x.png */,
+				D0325FFF2289E19600EF63F9 /* ball_point_pen@3x.png */,
 				D0325F8522894C5F00EF63F9 /* graduation_cap.png */,
 				D0325F8422894C5F00EF63F9 /* graduation_cap@2x.png */,
 				D0325F8222894C4900EF63F9 /* graduation_cap@3x.png */,
@@ -217,22 +235,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0325F8E22894EC700EF63F9 /* iPhone App Icon iOS 7,12@3x.png in Resources */,
+				D0325FF72289E09800EF63F9 /* user_male@2x.png in Resources */,
 				D0325FC622894F2500EF63F9 /* iPhone Spotlight iOS 7,12@3x.png in Resources */,
 				D0325FD422894F2500EF63F9 /* iPad notification iOS 7,12.png in Resources */,
-				D0325F802289432A00EF63F9 /* exam@2x.png in Resources */,
-				D0325F812289432A00EF63F9 /* exam@3x.png in Resources */,
 				D0325FDC22894F2500EF63F9 /* iPhone settings iOS 7,12@3x.png in Resources */,
 				D0325FCD22894F2500EF63F9 /* iPad Pro Icon iOS 9,12@2x.png in Resources */,
 				D0325FC022894F2500EF63F9 /* iPad App Icon iOS 7,12.png in Resources */,
 				D0325FE422894F2500EF63F9 /* iPad Settings@2x.png in Resources */,
+				D03260022289E19700EF63F9 /* ball_point_pen@3x.png in Resources */,
 				D0325FCA22894F2500EF63F9 /* iPhone settings iOS 7,12@2x.png in Resources */,
 				D0325F8722894C5F00EF63F9 /* graduation_cap.png in Resources */,
+				D032600A2289F21700EF63F9 /* profileSquare.png in Resources */,
+				D03260082289EF6800EF63F9 /* profile.jpg in Resources */,
 				D0325FC322894F2500EF63F9 /* iPhone notification iOS 7,12@3x.png in Resources */,
 				D0325FE922894F2500EF63F9 /* iPad notification iOS 7,12@2x.png in Resources */,
 				D0325F8322894C4900EF63F9 /* graduation_cap@3x.png in Resources */,
 				D0325FC722894F2500EF63F9 /* iPhone notification iOS 7,12@2x.png in Resources */,
 				D0325F8622894C5F00EF63F9 /* graduation_cap@2x.png in Resources */,
+				D03260042289E19700EF63F9 /* ball_point_pen@2x.png in Resources */,
 				D0325FD122894F2500EF63F9 /* iPad Settings.png in Resources */,
+				D0325FF62289E09800EF63F9 /* user_male@3x.png in Resources */,
 				D0325F712289160800EF63F9 /* LaunchScreen.storyboard in Resources */,
 				D0325F6E2289160800EF63F9 /* Assets.xcassets in Resources */,
 				D0325F6C2289160700EF63F9 /* Main.storyboard in Resources */,
@@ -240,9 +262,10 @@
 				D0325FC522894F2500EF63F9 /* iPad Spotlight iOS 7,12@2x.png in Resources */,
 				D0325F8F22894EC700EF63F9 /* iPhone App Icon iOS 7,12@2x.png in Resources */,
 				D0325FC122894F2500EF63F9 /* iPhone Spotlight iOS 7,12@2x.png in Resources */,
+				D03260032289E19700EF63F9 /* ball_point_pen.png in Resources */,
 				D0325FD322894F2500EF63F9 /* iPad Spotlight iOS 7,12.png in Resources */,
+				D0325FF82289E09800EF63F9 /* user_male.png in Resources */,
 				D0325FD622894F2500EF63F9 /* iPad App Icon iOS 7,12@2x.png in Resources */,
-				D0325F7F2289432A00EF63F9 /* exam.png in Resources */,
 				D0325FDE22894F2500EF63F9 /* App Store.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +279,7 @@
 			files = (
 				D0325F692289160700EF63F9 /* SecondViewController.swift in Sources */,
 				D0325F652289160700EF63F9 /* AppDelegate.swift in Sources */,
+				D03260062289E29A00EF63F9 /* ThirdViewController.swift in Sources */,
 				D0325F672289160700EF63F9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
