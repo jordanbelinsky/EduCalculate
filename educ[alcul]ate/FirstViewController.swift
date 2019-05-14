@@ -35,23 +35,23 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         // display version number
-        version.text = "Version: 1.0~b0.2"
+        version.text = "Version: 1.0~b0.1"
         
         // check for general taps around screen area to dismiss keyboard
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
         // setup for numpad support
-        mInput1.keyboardType = UIKeyboardType.decimalPad
-        mInput2.keyboardType = UIKeyboardType.decimalPad
-        mInput3.keyboardType = UIKeyboardType.decimalPad
-        mInput4.keyboardType = UIKeyboardType.decimalPad
-        mInput5.keyboardType = UIKeyboardType.decimalPad
-        wInput1.keyboardType = UIKeyboardType.decimalPad
-        wInput2.keyboardType = UIKeyboardType.decimalPad
-        wInput3.keyboardType = UIKeyboardType.decimalPad
-        wInput4.keyboardType = UIKeyboardType.decimalPad
-        wInput5.keyboardType = UIKeyboardType.decimalPad
+        mInput1.keyboardType = UIKeyboardType.numberPad
+        mInput2.keyboardType = UIKeyboardType.numberPad
+        mInput3.keyboardType = UIKeyboardType.numberPad
+        mInput4.keyboardType = UIKeyboardType.numberPad
+        mInput5.keyboardType = UIKeyboardType.numberPad
+        wInput1.keyboardType = UIKeyboardType.numberPad
+        wInput2.keyboardType = UIKeyboardType.numberPad
+        wInput3.keyboardType = UIKeyboardType.numberPad
+        wInput4.keyboardType = UIKeyboardType.numberPad
+        wInput5.keyboardType = UIKeyboardType.numberPad
     }
     
     // function to calculate the weighted average given 5 marks and weightings
@@ -114,7 +114,6 @@ class FirstViewController: UIViewController {
         var avgRound: Double
         finalAvg = weightedAverage(m1: mark1, m2: mark2, m3: mark3, m4: mark4, m5: mark5, w1: weight1, w2: weight2, w3: weight3, w4: weight4, w5: weight5)
         avgRound = (finalAvg*100).rounded()/100
-        
         // display the final average in string form
         averageOutput.text = "Your average is: \(avgRound)%"
     }
