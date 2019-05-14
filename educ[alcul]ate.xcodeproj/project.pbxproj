@@ -32,6 +32,7 @@
 		D0325FD422894F2500EF63F9 /* iPad notification iOS 7,12.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FA622894F2300EF63F9 /* iPad notification iOS 7,12.png */; };
 		D0325FD622894F2500EF63F9 /* iPad App Icon iOS 7,12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FA822894F2300EF63F9 /* iPad App Icon iOS 7,12@2x.png */; };
 		D0325FDC22894F2500EF63F9 /* iPhone settings iOS 7,12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FAE22894F2300EF63F9 /* iPhone settings iOS 7,12@3x.png */; };
+		D0325FDE22894F2500EF63F9 /* App Store.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FB022894F2400EF63F9 /* App Store.png */; };
 		D0325FE422894F2500EF63F9 /* iPad Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FB622894F2400EF63F9 /* iPad Settings@2x.png */; };
 		D0325FE922894F2500EF63F9 /* iPad notification iOS 7,12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FBB22894F2400EF63F9 /* iPad notification iOS 7,12@2x.png */; };
 		D0325FF62289E09800EF63F9 /* user_male@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0325FF32289E09700EF63F9 /* user_male@3x.png */; };
@@ -43,11 +44,10 @@
 		D03260062289E29A00EF63F9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03260052289E29A00EF63F9 /* ThirdViewController.swift */; };
 		D03260082289EF6800EF63F9 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D03260072289EF6800EF63F9 /* profile.jpg */; };
 		D032600A2289F21700EF63F9 /* profileSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = D03260092289F21700EF63F9 /* profileSquare.png */; };
-		D0829114228A4D6400165F01 /* App Store.png in Resources */ = {isa = PBXBuildFile; fileRef = D0829113228A4D6400165F01 /* App Store.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0325F612289160700EF63F9 /* educ-alcul-ate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "educ-alcul-ate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0325F612289160700EF63F9 /* educ[alcul]ate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "educ[alcul]ate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0325F642289160700EF63F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0325F662289160700EF63F9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D0325F682289160700EF63F9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +74,7 @@
 		D0325FA622894F2300EF63F9 /* iPad notification iOS 7,12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad notification iOS 7,12.png"; sourceTree = "<group>"; };
 		D0325FA822894F2300EF63F9 /* iPad App Icon iOS 7,12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad App Icon iOS 7,12@2x.png"; sourceTree = "<group>"; };
 		D0325FAE22894F2300EF63F9 /* iPhone settings iOS 7,12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone settings iOS 7,12@3x.png"; sourceTree = "<group>"; };
+		D0325FB022894F2400EF63F9 /* App Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Store.png"; sourceTree = "<group>"; };
 		D0325FB622894F2400EF63F9 /* iPad Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Settings@2x.png"; sourceTree = "<group>"; };
 		D0325FBB22894F2400EF63F9 /* iPad notification iOS 7,12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad notification iOS 7,12@2x.png"; sourceTree = "<group>"; };
 		D0325FF32289E09700EF63F9 /* user_male@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_male@3x.png"; sourceTree = "<group>"; };
@@ -85,7 +86,6 @@
 		D03260052289E29A00EF63F9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		D03260072289EF6800EF63F9 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
 		D03260092289F21700EF63F9 /* profileSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileSquare.png; sourceTree = "<group>"; };
-		D0829113228A4D6400165F01 /* App Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Store.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		D0325F622289160700EF63F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0325F612289160700EF63F9 /* educ-alcul-ate.app */,
+				D0325F612289160700EF63F9 /* educ[alcul]ate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 		D0325F8822894EAD00EF63F9 /* icon */ = {
 			isa = PBXGroup;
 			children = (
-				D0829113228A4D6400165F01 /* App Store.png */,
+				D0325FB022894F2400EF63F9 /* App Store.png */,
 				D0325F9222894F2200EF63F9 /* iPad App Icon iOS 7,12.png */,
 				D0325FA822894F2300EF63F9 /* iPad App Icon iOS 7,12@2x.png */,
 				D0325FA622894F2300EF63F9 /* iPad notification iOS 7,12.png */,
@@ -193,7 +193,7 @@
 			);
 			name = "educ[alcul]ate";
 			productName = "educ[alcul]ate";
-			productReference = D0325F612289160700EF63F9 /* educ-alcul-ate.app */;
+			productReference = D0325F612289160700EF63F9 /* educ[alcul]ate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,6 @@
 				D03260022289E19700EF63F9 /* ball_point_pen@3x.png in Resources */,
 				D0325FCA22894F2500EF63F9 /* iPhone settings iOS 7,12@2x.png in Resources */,
 				D0325F8722894C5F00EF63F9 /* graduation_cap.png in Resources */,
-				D0829114228A4D6400165F01 /* App Store.png in Resources */,
 				D032600A2289F21700EF63F9 /* profileSquare.png in Resources */,
 				D03260082289EF6800EF63F9 /* profile.jpg in Resources */,
 				D0325FC322894F2500EF63F9 /* iPhone notification iOS 7,12@3x.png in Resources */,
@@ -267,6 +266,7 @@
 				D0325FD322894F2500EF63F9 /* iPad Spotlight iOS 7,12.png in Resources */,
 				D0325FF82289E09800EF63F9 /* user_male.png in Resources */,
 				D0325FD622894F2500EF63F9 /* iPad App Icon iOS 7,12@2x.png in Resources */,
+				D0325FDE22894F2500EF63F9 /* App Store.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,13 +429,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF98SFAJXT;
 				INFOPLIST_FILE = "educ[alcul]ate/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jordanbelinsky.educ-alcul-ate";
-				PRODUCT_NAME = "educ-alcul-ate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -448,13 +448,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF98SFAJXT;
 				INFOPLIST_FILE = "educ[alcul]ate/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jordanbelinsky.educ-alcul-ate";
-				PRODUCT_NAME = "educ-alcul-ate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -26,10 +26,10 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         // display version number
-        version.text = "Version: 1.0~b4"
+        version.text = "Version: 1.0~b0.2"
         
         // check for general taps around screen area to dismiss keyboard
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SecondViewController.dismissKeyboard))
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
         // setup for numpad support
@@ -49,9 +49,10 @@ class SecondViewController: UIViewController {
         
         // decalre variables
         var required: Double
+        let currentWeight = 1 - weight
         
         // calculate the required mark
-        required = (100 * final - (100 - weight) * current) / weight
+        required = (final - currentWeight * current) / weight
         
         // return required value from function
         return required
@@ -72,13 +73,10 @@ class SecondViewController: UIViewController {
         
         // define and calculate the final mark
         var finalMark: Double
-        var markRound: Double
-        
         finalMark = finalExam(current: currentMark, final: endMark, weight: weighting)
-        markRound = (finalMark * 100).rounded() / 100
         
         // display the final mark in string form
-        markOutput.text = "The mark you need is: \(markRound)%"
+        markOutput.text = "The mark you need is: \(finalMark)%"
     }
     
 }

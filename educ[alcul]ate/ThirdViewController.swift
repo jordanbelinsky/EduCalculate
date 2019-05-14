@@ -30,7 +30,7 @@ class ThirdViewController: UIViewController {
         profile.clipsToBounds = true
         
         // display version number
-        version.text = "Version: 1.0~b4"
+        version.text = "Version: 1.0~b0.2"
     }
     
 }
